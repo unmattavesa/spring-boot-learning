@@ -7,11 +7,11 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v1.3.3.RELEASE)
 
-2016-04-12 13:39:16.475  INFO 41001 --- [           main] org.narayan.springboot.learning.App      : Starting App on localhost.local with PID 41001 (/Users/si255323/@unmattavesa/spring-boot-learning/target/classes started by si255323 in /Users/si255323/@unmattavesa/spring-boot-learning)
-2016-04-12 13:39:16.492  INFO 41001 --- [           main] org.narayan.springboot.learning.App      : No active profile set, falling back to default profiles: default
-2016-04-12 13:39:16.784  INFO 41001 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@58a90037: startup date [Tue Apr 12 13:39:16 IST 2016]; root of context hierarchy
-2016-04-12 13:39:19.393  INFO 41001 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-Hello Spring Boot!!!!
-2016-04-12 13:39:19.484  INFO 41001 --- [           main] org.narayan.springboot.learning.App      : Started App in 3.962 seconds (JVM running for 5.83)
-2016-04-12 13:39:19.485  INFO 41001 --- [       Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@58a90037: startup date [Tue Apr 12 13:39:16 IST 2016]; root of context hierarchy
-2016-04-12 13:39:19.489  INFO 41001 --- [       Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-04-12 13:50:21.281  INFO 43067 --- [           main] o.narayan.springboot.learning.main.App   : Starting App on localhost.local with PID 43067 (/Users/si255323/@unmattavesa/spring-boot-learning/target/classes started by si255323 in /Users/si255323/@unmattavesa/spring-boot-learning)
+2016-04-12 13:50:21.285  INFO 43067 --- [           main] o.narayan.springboot.learning.main.App   : No active profile set, falling back to default profiles: default
+2016-04-12 13:50:21.391  INFO 43067 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@58a90037: startup date [Tue Apr 12 13:50:21 IST 2016]; root of context hierarchy
+2016-04-12 13:50:22.566  INFO 43067 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+Hello unmattavesa
+2016-04-12 13:50:22.580  INFO 43067 --- [           main] o.narayan.springboot.learning.main.App   : Started App in 1.681 seconds (JVM running for 2.904)
+2016-04-12 13:50:22.581  INFO 43067 --- [       Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@58a90037: startup date [Tue Apr 12 13:50:21 IST 2016]; root of context hierarchy
+2016-04-12 13:50:22.583  INFO 43067 --- [       Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

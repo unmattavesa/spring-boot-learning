@@ -1,4 +1,4 @@
-package org.narayan.springboot.learning;
+package org.narayan.springboot.learning.main;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
