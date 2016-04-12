@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Bean;
  * 
  * @author unmattavesa
  */
-@SpringBootApplication
+//@SpringBootApplication
 public class App {
 	
 	public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class App {
 	 * Declaring bean for Greeter
 	 * @return
 	 */
-	@Bean
+//	@Bean
 	Greeter greeter() {
 		return new Greeter() {
 			@Override
@@ -40,7 +40,7 @@ public class App {
 	 * @param greeter
 	 * @return
 	 */
-	@Bean
+//	@Bean
 	CommandLineRunner commandLineRunner(final Greeter greeter) {
 		return new CommandLineRunner() {
 			@Override

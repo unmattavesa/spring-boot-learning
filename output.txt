@@ -7,11 +7,41 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v1.3.3.RELEASE)
 
-2016-04-12 13:50:21.281  INFO 43067 --- [           main] o.narayan.springboot.learning.main.App   : Starting App on localhost.local with PID 43067 (/Users/si255323/@unmattavesa/spring-boot-learning/target/classes started by si255323 in /Users/si255323/@unmattavesa/spring-boot-learning)
-2016-04-12 13:50:21.285  INFO 43067 --- [           main] o.narayan.springboot.learning.main.App   : No active profile set, falling back to default profiles: default
-2016-04-12 13:50:21.391  INFO 43067 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@58a90037: startup date [Tue Apr 12 13:50:21 IST 2016]; root of context hierarchy
-2016-04-12 13:50:22.566  INFO 43067 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-Hello unmattavesa
-2016-04-12 13:50:22.580  INFO 43067 --- [           main] o.narayan.springboot.learning.main.App   : Started App in 1.681 seconds (JVM running for 2.904)
-2016-04-12 13:50:22.581  INFO 43067 --- [       Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@58a90037: startup date [Tue Apr 12 13:50:21 IST 2016]; root of context hierarchy
-2016-04-12 13:50:22.583  INFO 43067 --- [       Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-04-12 16:59:50.933  INFO 78401 --- [           main] o.n.s.l.main.DefaultBeansInspector       : Starting DefaultBeansInspector on localhost.local with PID 78401 (/Users/si255323/@unmattavesa/spring-boot-learning/target/classes started by si255323 in /Users/si255323/@unmattavesa/spring-boot-learning)
+2016-04-12 16:59:50.936  INFO 78401 --- [           main] o.n.s.l.main.DefaultBeansInspector       : No active profile set, falling back to default profiles: default
+2016-04-12 16:59:50.987  INFO 78401 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@80ec1f8: startup date [Tue Apr 12 16:59:50 IST 2016]; root of context hierarchy
+2016-04-12 16:59:51.925  INFO 78401 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-04-12 16:59:51.944  INFO 78401 --- [           main] o.n.s.l.main.DefaultBeansInspector       : Started DefaultBeansInspector in 1.351 seconds (JVM running for 2.674)
+************** Let's print all the bean definition names ****************
+
+
+
+org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+org.springframework.context.annotation.internalRequiredAnnotationProcessor
+org.springframework.context.annotation.internalCommonAnnotationProcessor
+org.springframework.context.event.internalEventListenerProcessor
+org.springframework.context.event.internalEventListenerFactory
+defaultBeansInspector
+org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor
+org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor
+org.springframework.boot.autoconfigure.AutoConfigurationPackages
+org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration
+org.springframework.boot.autoconfigure.condition.BeanTypeRegistry
+propertySourcesPlaceholderConfigurer
+org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
+mbeanExporter
+objectNamingStrategy
+mbeanServer
+org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration
+springApplicationAdminRegistrar
+org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store
+
+
+ Total No. of default beans = 22
+
+
+2016-04-12 16:59:51.948  INFO 78401 --- [       Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@80ec1f8: startup date [Tue Apr 12 16:59:50 IST 2016]; root of context hierarchy
+2016-04-12 16:59:51.950  INFO 78401 --- [       Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
